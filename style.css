@@ -1,0 +1,46 @@
+.navbar-collapse{
+    justify-content: center;
+}
+
+.container{
+    background-image: url("1.jpg");
+    height: 660px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner{
+    opacity: 1;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 414px) {
+    .inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+span{
+    color: #007FFF;
+}
+
+.center h2{
+    display: flex;
+    justify-content: center;
+}
